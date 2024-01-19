@@ -1,0 +1,60 @@
+.navbar-profile-pic img{
+    border-radius: 60px;
+    height: 120px;
+    width: 120px;
+    display: flex;
+    vertical-align: middle;
+    margin: 0 auto;
+}
+
+.nav-item{
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.nav-link{
+    margin-top: 18px;
+    cursor: pointer;
+}
+
+span{
+    margin-left: 10px;
+}
+
+/* Style for the 3rd and 4th nav-link */
+.nav-item .nav-link:nth-child(3),
+.nav-item .nav-link:nth-child(4) {
+    margin-left: 23px;
+}
+
+/* Style for the 5th and 6th nav-link */
+.nav-item .nav-link:nth-child(5),
+.nav-item .nav-link:nth-child(6) {
+    margin-left: 5px;
+}
+
+/* Media query for screen width less than 1300px */
+@media screen and (max-width: 1300px) {
+    .nav-item .nav-link:nth-child(3),
+    .nav-item .nav-link:nth-child(4),
+    .nav-item .nav-link:nth-child(5),
+    .nav-item .nav-link:nth-child(6) {
+        margin-left: 0px;
+    }
+}
+
+/* Hides the text inside the span */
+
+@media screen and (max-width: 1300px) {
+    .text {
+        display: none;
+        
+    }
+}
+
+span:hover{
+    color: rgb(226, 148, 98);
+}

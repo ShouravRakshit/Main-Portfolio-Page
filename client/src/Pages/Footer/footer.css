@@ -1,0 +1,54 @@
+.footer {
+    background-color: #212939;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    margin: auto;
+    
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+  }
+  
+  .footer-section {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .footer-section h4 {
+    margin-bottom: 10px;
+  }
+  
+  .social-media-icons {
+    font-size: 24px;
+  }
+  
+  .social-media-icons .icon {
+    margin: 0 10px;
+  }
+  
+  .footer-bottom {
+    border-top: 1px solid #444;
+    padding-top: 10px;
+  }
+
+.facebook, .instagram{
+    color: rgb(29, 29, 221);
+    margin-right: 18px;
+    cursor: pointer;
+}
+
+.instagram{
+    color: rgb(213, 55, 213);
+}
+
+.facebook:hover{
+    color: rgb(10, 10, 162);
+}
+
+.instagram:hover{
+    color: rgb(185, 25, 185);
+}
