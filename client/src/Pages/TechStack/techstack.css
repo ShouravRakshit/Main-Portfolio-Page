@@ -112,7 +112,7 @@
 
 @media screen and (max-width: 430px) {
   .main-card {
-    margin-left: 35px;
+    margin-left: 10px;
     margin-bottom: 5px;
   }
 }
@@ -128,5 +128,20 @@
   .main-card {
     margin-left: 2px;
     margin-bottom: 5px;
+  }
+}
+
+
+@media screen and (max-width: 420px) {
+  .tech-stack h1{
+    margin-left: 5px;
+    margin-bottom: 5px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .tech-stack p{
+    margin-left: 5px;
+    margin-bottom: 25px;
   }
 }
