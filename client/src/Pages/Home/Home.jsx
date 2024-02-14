@@ -3,6 +3,8 @@
 import "./home.css";
 import Typewriter from "typewriter-effect";
 import Resume from '../../assets/docs/ShouravRakshitIvan.pdf';
+import Transcript from '../../assets/docs/Transcript.pdf';
+
 import { useTheme } from "../../Context/ThemeContext";
 import { FaMoon } from "react-icons/fa6";
 import { IoSunnyOutline } from "react-icons/io5";
@@ -42,6 +44,7 @@ const Home = () => {
           <div className="home-buttons">
             <button className="btn btn-primary btn-hire">Hire Me</button>
             <a className="btn btn-success btn-cv" href={Resume} download="your_name.pdf">My Resume</a>
+            <a className="btn btn-danger btn-transcript" href={Transcript} download="your_name.pdf">Transcript</a>
           </div>
           </Fade>
         </div>

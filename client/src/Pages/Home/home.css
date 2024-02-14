@@ -1,71 +1,83 @@
-.home-container{
-    height: 200px;
-    color: aliceblue;
-    background-color: #212935;
+.home-container {
+  height: 200px;
+  color: aliceblue;
+  background-color: #212935;
 }
 
-.home-content h1{
-    padding-left:50px;
-    padding-top:30px;
+.home-content h1 {
+  padding-left: 50px;
+  padding-top: 30px;
 }
 
-.home-content h2{
-    margin-left: 40px;
-    color: rgb(219, 150, 48);
+.home-content h2 {
+  margin-left: 40px;
+  color: rgb(219, 150, 48);
 }
 
-.home-buttons{
-    margin-top: 20px;
-    margin-left: 45px;
+.home-buttons {
+  margin-top: 20px;
+  margin-left: 45px;
 }
 
-.btn-hire{
-    margin-right: 10px;
-    width: 100px
+.btn-hire {
+  margin-right: 10px;
+  width: 100px;
 }
 
-.btn-cv{
-    width: 120px
+.btn-cv {
+  width: 120px;
 }
 
-.btn-hire:hover{
-    transition: .8s;
+.btn-hire:hover {
+  transition: 0.8s;
 }
 
-.btn-cv:hover{
-    transition: .8s;
+.btn-cv:hover {
+  transition: 0.8s;
+  opacity: 80%;
+}
+
+.btn-transcript{
+   margin-left: 10px;
+}
+
+.btn-transcript:hover {
+    transition: 0.8s;
     opacity: 80%;
 }
+  
 
 @media screen and (max-width: 390px) {
-    .home-content h2 {
-        
-        font-size: large;
-        
-    }
+  .home-content h2 {
+    font-size: large;
+  }
 }
 
-.theme-btn{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 50px;
-    width: 50px;
-    background-color:#14181d;
-    position: absolute;
-    cursor: pointer;
-    z-index: 1;
-    right: 0;
-    border-top-left-radius: 10px;
-    border-bottom-left-radius: 10px;
-
+.theme-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  width: 50px;
+  background-color: #14181d;
+  position: absolute;
+  cursor: pointer;
+  z-index: 1;
+  right: 0;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
 }
 
 @media screen and (max-width: 390px) {
-    .theme-btn {
-        
-        height: 35px;
-        width: 35px;
-        
-    }
+  .theme-btn {
+    height: 35px;
+    width: 35px;
+  }
 }
+
+@media screen and (max-width: 451px) {
+    .btn-transcript {
+        visibility: hidden;
+    }
+  }
+  
