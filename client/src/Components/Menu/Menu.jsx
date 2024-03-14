@@ -26,7 +26,7 @@ const Menu = ({ toggle, color }) => {
               className="navbar-profile-pic"
               style={{ backgroundColor: color, width: "100%" }}
             >
-              <img src="https://scontent.fyyc2-1.fna.fbcdn.net/v/t1.6435-9/46390650_317764075491068_1997208660777893888_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=7a1959&_nc_ohc=376RnGdNuvUAX8fd8cl&_nc_ht=scontent.fyyc2-1.fna&oh=00_AfBosEa8vLlGYSQfFu6tvtvofqNSWxn9HhcYPPrGLHNLDw&oe=65F14A30" />
+              <img src="https://scontent.fyyc2-1.fna.fbcdn.net/v/t1.6435-9/46390650_317764075491068_1997208660777893888_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=5f2048&_nc_ohc=_nz1FNe4MjwAX9Q74ka&_nc_ht=scontent.fyyc2-1.fna&oh=00_AfDacNxE0FuBAmMvGFdGEn3_iB_7Aa2SyyRgnksY-ug_oQ&oe=6619F070" />
             </div>
           </Tada>
           <Slide left> 
