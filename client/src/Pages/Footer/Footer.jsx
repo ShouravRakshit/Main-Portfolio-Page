@@ -17,7 +17,7 @@ const Footer = ({ color }) => {
         <div className="footer-content">
           <section className="footer-section">
             <h4>Contact</h4>
-            <p>Email: shouravivan@gmail.com</p>
+            <p>Email: shouravrakshit.ivan@ucalgary.ca</p>
           </section>
           <section className="footer-section">
             <h4>Follow Me</h4>
