@@ -8,7 +8,7 @@ import Footer from "./Pages/Footer/Footer";
 import TechStack from "./Pages/TechStack/TechStack";
 import ScrollToTop from "react-scroll-to-top";
 import { useTheme } from "./Context/ThemeContext";
-// import "./Pages/Projects/projects.css";
+import "./Pages/Projects/projects.css";
 
 import "./app.css";
 import { ToastContainer } from "react-toastify";
