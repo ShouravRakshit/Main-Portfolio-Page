@@ -53,7 +53,7 @@ function App() {
         <div style={{ width: "75%" }} className="container" id="projects">
           
           <h2>Stupid</h2>
-          <div className="col-md-12">
+          <div className="col-md-6">
             <div className="card rounded">
               <div className="card-image">
                 <a
@@ -86,7 +86,7 @@ function App() {
               </div>
             </div>
           </div>
-          <div className="col-md-12">
+          <div className="col-md-6">
             <div className="card rounded">
               <div className="card-image">
                 <a
@@ -119,7 +119,7 @@ function App() {
               </div>
             </div>
           </div>
-          <div className="col-md-12">
+          <div className="col-md-6">
             <div className="card rounded">
               <div className="card-image">
                 <a
