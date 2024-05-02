@@ -47,6 +47,7 @@ function App() {
         <div className="container text-center mt-3 project">
           <h1 style={{ textTransform: "uppercase",  }}>My Projects</h1>
         </div>
+        <h2 style={{color: "white"}}>Stupid</h2>
         {/* card design */}
         <div className="row" id="ads">
           <div className="col-md-6">
