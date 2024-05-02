@@ -49,7 +49,7 @@ function App() {
         </div>
         <div style={{color: "white"}}>
           
-        <div className="row" id="ads">
+          <h2>Studpi</h2>
           <div className="col-md-6">
             <div className="card rounded">
               <div className="card-image">
@@ -83,73 +83,6 @@ function App() {
               </div>
             </div>
           </div>
-          <div className="col-md-6">
-            <div className="card rounded">
-              <div className="card-image">
-                <a
-                  href="https://github.com/ShouravRakshit/Tokyo-Olympic-2021"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <img src={Tokyo} alt="Tokyo Olympic" />
-                </a>
-              </div>
-              <div className="card-image-overly m-auto mt-3">
-                <span className="card-detail-badge">Microsoft Azure</span>
-                <span className="card-detail-badge">SQL</span>
-                <span className="card-detail-badge mb-2">Apache Spark</span>
-                <span className="card-detail-badge">Power BI</span>
-              </div>
-              <div className="card-body text-center">
-                <div className="ad-title m-auto">
-                  <h5 className="text-uppercase">
-                    Tokyo Olympic 2021 Data Analysis
-                  </h5>
-                </div>
-                <a
-                  className="ad-btn"
-                  target="_black"
-                  href="https://github.com/ShouravRakshit/Tokyo-Olympic-2021"
-                >
-                  View
-                </a>
-              </div>
-            </div>
-          </div>
-          {/* <div className="col-md-6">
-            <div className="card rounded">
-              <div className="card-image">
-                <a
-                  href="https://github.com/ShouravRakshit/Atliq-Company-Sales-Analysis"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <img src={Atliq} alt="Atliq Sales" />
-                </a>
-              </div>
-              <div className="card-image-overly m-auto mt-3">
-                <span className="card-detail-badge">MySQL</span>
-                <span className="card-detail-badge">Kaggle</span>
-                <span className="card-detail-badge mb-5">Power BI</span>
-              </div>
-              <div className="card-body text-center">
-                <div className="ad-title m-auto">
-                  <h5 className="text-uppercase">
-                    Atliq Company Sales Analysis
-                  </h5>
-                </div>
-                <a
-                  className="ad-btn"
-                  target="_black"
-                  href="https://github.com/ShouravRakshit/Atliq-Company-Sales-Analysis"
-                >
-                  View
-                </a>
-              </div>
-            </div>
-          </div> */}
-        </div>
-
         </div>
        
         <div className="row" id="ads">
