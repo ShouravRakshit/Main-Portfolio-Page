@@ -36,7 +36,7 @@ function App() {
         <Education color={theme} />
         <TechStack color={theme} />
         <Projects color={theme} />
-        <Contact color={theme} />
+        {/* <Contact color={theme} /> */}
         <Footer color={theme} />
       </div>
       <ScrollToTop
