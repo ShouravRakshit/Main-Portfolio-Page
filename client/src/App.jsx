@@ -115,7 +115,7 @@ function App() {
               </div>
             </div>
           </div>
-          <div className="col-md-6">
+          {/* <div className="col-md-6">
             <div className="card rounded">
               <div className="card-image">
                 <a
@@ -146,7 +146,7 @@ function App() {
                 </a>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
       </Jump>
