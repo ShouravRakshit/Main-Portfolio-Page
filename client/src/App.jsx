@@ -4,7 +4,7 @@ import About from "./Pages/About/About";
 import Contact from "./Pages/Contact/Contact";
 import Education from "./Pages/Education/Education";
 import Footer from "./Pages/Footer/Footer";
-import Projects from "./Pages/Projects/Projects";
+// import Projects from "./Pages/Projects/Projects";
 import TechStack from "./Pages/TechStack/TechStack";
 import ScrollToTop from "react-scroll-to-top";
 import { useTheme } from "./Context/ThemeContext";
@@ -35,7 +35,16 @@ function App() {
         <About color={theme} />
         <Education color={theme} />
         <TechStack color={theme} />
-        <Projects color={theme} />
+        <div style={{ backgroundColor: "white", textAlign: "center" }}>
+          <h1>Projects</h1>
+
+          <ol>
+            <li>Food</li>
+            <li>Racing Car</li>
+          </ol>
+        </div>
+
+        {/* <Projects color={theme} /> */}
         <Contact color={theme} />
         <Footer color={theme} />
       </div>
