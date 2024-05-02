@@ -2,7 +2,7 @@
 /* eslint-disable react/no-unescaped-entities */
 import "./about.css";
 import Zoom from 'react-reveal/Zoom';
-
+import Image from '../../assets/images/Ivan.png'
 const About = ( {color} ) => {
   
   let textColor = color === "#212935" ? "#FFFFEC" : "#212935";
@@ -14,7 +14,7 @@ const About = ( {color} ) => {
         <div className="row" >
           <div className="col-xs-12 col-xl-6 col-lg-6 about-img">
             <img
-              src="https://scontent.fyyc2-1.fna.fbcdn.net/v/t1.6435-9/46390650_317764075491068_1997208660777893888_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=5f2048&_nc_ohc=_nz1FNe4MjwAX9Q74ka&_nc_ht=scontent.fyyc2-1.fna&oh=00_AfDacNxE0FuBAmMvGFdGEn3_iB_7Aa2SyyRgnksY-ug_oQ&oe=6619F070"
+              src={Image}
               alt="profile_pic"
             />
           </div>

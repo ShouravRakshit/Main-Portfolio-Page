@@ -11,6 +11,7 @@ import { IoIosContact } from "react-icons/io";
 import { Link } from "react-scroll";
 import Tada from 'react-reveal/Tada';
 import Slide from 'react-reveal/Slide';
+import Image from '../../assets/images/Ivan.png'
 
 
 // Need to shorten the code base because same code written twice.
@@ -26,7 +27,7 @@ const Menu = ({ toggle, color }) => {
               className="navbar-profile-pic"
               style={{ backgroundColor: color, width: "100%" }}
             >
-              <img src="https://scontent.fyyc2-1.fna.fbcdn.net/v/t1.6435-9/46390650_317764075491068_1997208660777893888_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=5f2048&_nc_ohc=_nz1FNe4MjwAX9Q74ka&_nc_ht=scontent.fyyc2-1.fna&oh=00_AfDacNxE0FuBAmMvGFdGEn3_iB_7Aa2SyyRgnksY-ug_oQ&oe=6619F070" />
+              <img src={Image} />
             </div>
           </Tada>
           <Slide left> 
