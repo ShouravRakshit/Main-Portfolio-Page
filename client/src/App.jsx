@@ -46,13 +46,14 @@ function App() {
       <div style={{ width: "75%" }} className="container" id="projects">
         <div className="container text-center mt-3 project">
           <h1 style={{ textTransform: "uppercase",  }}>My Projects</h1>
+          <h2>Stupid</h2>
         </div>
         <div className="row" id="ads">
         <Jump>
         
         <div style={{ width: "75%" }} className="container" id="projects">
           
-          <h2>Stupid</h2>
+          
           <div className="col-md-6">
             <div className="card rounded">
               <div className="card-image">
