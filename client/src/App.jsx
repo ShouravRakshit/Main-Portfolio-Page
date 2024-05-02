@@ -35,7 +35,7 @@ function App() {
         <About color={theme} />
         <Education color={theme} />
         <TechStack color={theme} />
-        <Projects color={theme} />
+        {/* <Projects color={theme} /> */}
         <Contact color={theme} />
         <Footer color={theme} />
       </div>
